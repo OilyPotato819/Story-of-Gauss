@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>repl.it</title>
+  <title>Story of Gauss</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -21,10 +21,11 @@
 
   <h2>Calculate Sum of Integers 1 to n</h2>
   <p class="series">1 + 2 + 3 + ... + (n-1) + n</p>
-  <p>
+  <p id="value-p">
     Enter a value for n: <input id="n-in" type="number">
     <button id="calc-btn">Calculate Sum</button>
   </p>
+  <p id="not-valid"></p>
   <p class="result">Sum of 1 to <span id='n-out'>?</span> is <span id="sum-out">---</span></p>
 
   <!-- Load JavaScript -->

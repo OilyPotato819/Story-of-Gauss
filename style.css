@@ -42,3 +42,14 @@ span {
 span {
   font-size: 20px;
 }
+
+#not-valid {
+  color: red;
+  margin-top: 0;
+  margin-left: 139px;
+  font-size: 13px;
+}
+
+#value-p {
+  margin-bottom: 0;
+}
